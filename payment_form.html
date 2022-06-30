@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <style>
+     
+     *{ 
+       box-sizing: border-box;
+    }
+    
+    body{
+
+      background-color: skyblue;
+      border: 2px silver;
+      padding: 5px;
+    }
+
+    </style>
+</head>
+<body>
+     <form action="google.com">
+         <h1>PAYMENT FORM</h1>
+         <h2>contact information</h2>
+         <p>NAME: <input type="text" name="name" placeholder="ENTER YOUR NAME"></inpt></p>
+         <fieldset> 
+             <legend>Gender</legend>    
+             <p>
+             MALE <input type="radio" name="gender" id="male">  
+             FEMALE <input type="radio" name="gender" id="female">
+              </p>  
+            </fieldset> 
+             <p>Address: <textarea name="address" id="address" cols="100" rows="5"></textarea> </p>  
+             <p>Email: <input type="email" name="email" id="email" placeholder="ENTER YOUR EMAIL ADDRESS"> </p>       
+              <h2>Payment information</h2> 
+              <p>Payment Method:
+                <select name="card type" id="card type">
+                <option value="">--select a card type--</option>--
+                <option value="google pay">Google pay</option>
+                <option value="Amazon pay">Amazon pay</option>
+                <option value="phone pay">Phone pay</option>  
+             </select>  
+             </p>
+             <p>
+                 DOB:<input type="date" name="dob" id="dob">
+                </p>
+                  <input type="submit" value="Pay Now">   
+            </form>
+            <br>
+            
+</body>
+</html>

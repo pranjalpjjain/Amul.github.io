@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order now</title>
+    <style>
+      
+      *  {
+    box-sizing: border-box;
+    list-style: none;
+                      }
+
+      body{
+          
+          padding-left: 300px;
+          text-align: center;
+          width: 50%;
+          height: 100%;
+          background-color: lightsalmon;
+      }
+           
+      h1{
+        background-color: peru;
+        border-radius: 40px;
+      }
+
+      input[type="submit"]{
+        background-color: dimgray;
+        padding:20px;
+        border-radius: 40px;
+
+
+      }
+    </style>
+</head>
+<body>
+    <form action="">
+      <h1> <span> ORDER NOW </span> </h1>
+     <fieldset>
+         <legend>MILK TYPE</legend> 
+      <p><input type="checkbox" name="cowmilk" id="milk1"  value="cowmilk" >
+         <label for="cowmilk" >COW MILk</label>
+          <p><input type="checkbox" name="BUFFALO" id="milk2"  value="buffalomilk" >
+            <label for="BUFFALO" >BUFFALO MILk</label>
+    </p>
+</fieldset>
+<fieldset>
+    <legend>quantity in kgs</legend>
+    <p>COW MILK<input type="number" name="kgs" id="quantity1"></p>
+    <p>BUFFALO MILK <input type="number" name="kgs" id="quantity2"></p>
+</fieldset>
+<p>
+<span><input type="submit" value="Order now"></span>
+<span><input type="submit" value="Add to cart"></span>
+</p>
+</form>
+</body>
+</html>
